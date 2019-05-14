@@ -1,11 +1,12 @@
 <?php
     //Function Autoload
-    include('function.php');
+    require_once('function.php');
     //Include DB Config
-    include('new_config.php');
+    require_once('new_config.php');
     //Include DB Init
-    include("database.php");
+    require_once("database.php");
     //Include User Class
-    include("user.php");
-
+    require_once("user.php");
+    //Include Session Class
+    require_once("session.php");
 ?>
